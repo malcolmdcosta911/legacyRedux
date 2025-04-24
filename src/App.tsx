@@ -3,6 +3,7 @@ import store from "./store/store";
 import { addTodo } from "./store/todo";
 import { SyntheticEvent, useState } from "react";
 
+//can check actions here in redux dev tools
 
 function App() {
   const [input, setInput] = useState("");
@@ -12,6 +13,7 @@ function App() {
     if (!input) return;
     addTodo(input, store);
     setInput("");
+    // console.log(store);
   }
 
   return (
