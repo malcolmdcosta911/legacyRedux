@@ -1,8 +1,4 @@
 import { createStore } from "redux";
-// import {
-//   todosReducer,
-// }
-import { SyntheticEvent, useState } from "react";
 import reducer from "./reducer";
 // Create a Redux store holding the state of your app.
 // Its API is { subscribe, dispatch, getState }.
